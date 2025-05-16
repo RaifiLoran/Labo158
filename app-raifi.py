@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "Batman le bg x2 ++"
+    return "Batman le bg x2 ++++ trop bg de ouf"
 
 if __name__ == "__main__":
     app.run(debug=True, host="0.0.0.0", port=5000)
